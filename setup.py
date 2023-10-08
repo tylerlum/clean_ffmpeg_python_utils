@@ -8,11 +8,11 @@ long_description = (this_directory / "README.md").read_text()
 
 
 setup(
-    name="ffmpeg_python_utils",
+    name="clean_ffmpeg_python_utils",
     version=VERSION,
     author="Tyler Lum",
     author_email="tylergwlum@gmail.com",
-    url="https://github.com/tylerlum/ffmpeg_python_utils",
+    url="https://github.com/tylerlum/clean_ffmpeg_python_utils",
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -21,7 +21,7 @@ setup(
     keywords=["python", "ffmpeg", "video", "audio"],
     entry_points={
         "console_scripts": [
-            "ffmpeg_python_utils=ffmpeg_python_utils.ffmpeg_python_utils:main",
+            "clean_ffmpeg_python_utils=clean_ffmpeg_python_utils.clean_ffmpeg_python_utils:main",
         ],
     },
     classifiers=[

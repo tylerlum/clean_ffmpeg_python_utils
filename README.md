@@ -1,21 +1,21 @@
-# ffmpeg_python_utils
+# clean_ffmpeg_python_utils
 
-ffmpeg python utils with simpler arguments
+Easy-to-use ffmpeg python utils with simpler arguments
 
 # Installing
 
 Install:
 
 ```
-pip install ffmpeg_python_utils
+pip install clean_ffmpeg_python_utils
 ```
 
 # Usage
 
 ```
-ffmpeg_python_utils --help
+clean_ffmpeg_python_utils --help
 
-usage: ffmpeg_python_utils --input_filepath INPUT_FILEPATH [--output_extension OUTPUT_EXTENSION] [--output_filepath OUTPUT_FILEPATH] [--fps FPS]
+usage: clean_ffmpeg_python_utils --input_filepath INPUT_FILEPATH [--output_extension OUTPUT_EXTENSION] [--output_filepath OUTPUT_FILEPATH] [--fps FPS]
                            [--start_time START_TIME] [--duration DURATION] [--width WIDTH] [--height HEIGHT] [-h]
 
 optional arguments:
@@ -37,17 +37,17 @@ optional arguments:
 # Example 1: Convert mp4 to gif
 
 ```
-ffmpeg_python_utils --input_filepath openai_rubiks_cube.mp4 --output_extension gif
+clean_ffmpeg_python_utils --input_filepath openai_rubiks_cube.mp4 --output_extension gif
 ```
 
 # Example 2: Trim video length
 
 ```
-ffmpeg_python_utils --input_filepath openai_rubiks_cube.mp4 --start_time 25 --duration 10
+clean_ffmpeg_python_utils --input_filepath openai_rubiks_cube.mp4 --start_time 25 --duration 10
 ```
 
 # Example 3: Modify FPS
 
 ```
-ffmpeg_python_utils --input_filepath openai_rubiks_cube.mp4 --fps 10
+clean_ffmpeg_python_utils --input_filepath openai_rubiks_cube.mp4 --fps 10
 ```
